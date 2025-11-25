@@ -1,7 +1,11 @@
 # dws-installation
 Guide to installation of dws
 
+------
+
 download dws agent- > https://www.dwservice.net/en/download.html
+
+------
 
 after installation go to the installed path in terminal
 
@@ -19,6 +23,8 @@ select yes - click 1
 
 enter installation code - click 1
 
+-----
+
 sudo nano /boot/firmware/config.txt
 
 go to bottom line and paste this 3 line below code
@@ -31,9 +37,16 @@ hdmi_mode=82
 
 ctrl + x & then press y
 
+-----
+
 sudo raspi-config
+
 select advanced option in option 6
+
 select wayland
+
 select w1 x11
+
+-----
 
 press tab and sleect finish and then restart
